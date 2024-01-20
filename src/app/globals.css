@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.span-hero {
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.10);
+}
+
+.button {
+  border-radius: 100px;
+  background: var(--Primary-500, linear-gradient(280deg, #00796D 0%, #38C682 100%));
+}
+
+.card {
+  background: var(--Primary-500, linear-gradient(280deg, #00796D 0%, #38C682 100%));
+}
+
+.h1 {
+  background: linear-gradient(280deg, #00796D 0%, #38C682 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.background-services{
+  background: var(--Primary-50, linear-gradient(280deg, rgba(0, 121, 109, 0.10) 0%, rgba(56, 198, 130, 0.10) 100%));
+}
+.card-testimonials{
+  background: var(--Primary-500, linear-gradient(280deg, #00796D 0%, #38C682 100%));
+
+}
