@@ -23,7 +23,7 @@ const Proyects = () => {
                     Our Project Have Been <span className='h1'>Done</span>
                 </h3>
                 <p className='text-[#B6B8BC] text-1xl text-center px-4'>
-                    Take a look at some of our recent projects and see how we've helped other businesses elevate their brand and drive business growth.
+                    Take a look at some of our recent projects and see how we ve helped other businesses elevate their brand and drive business growth.
                 </p>
             </div>
 
