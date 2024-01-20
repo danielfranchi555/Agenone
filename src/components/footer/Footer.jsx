@@ -10,7 +10,7 @@ const Footer = () => {
                         <Image src={logo} />
                         <span className='font-bold text-2xl'>Ageone</span>
                     </div>
-                    <p className='text-[#B6B8BC] md:max-w-[300px] md:text-1xl'>We're a team of experienced designers, developers, and marketers, passionate about delivering exceptional digital solutions.</p>
+                    <p className='text-[#B6B8BC] md:max-w-[300px] md:text-1xl'>We re a team of experienced designers, developers, and marketers, passionate about delivering exceptional digital solutions.</p>
                     <p className='text-[#B6B8BC]'>hello@agenone.com</p>
                 </div>
                 <div className='flex flex-col gap-10 md:flex md:flex-row  md:justify-between '>
@@ -41,7 +41,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className=' py-4 w-[90%] mx-auto text-white text-center border-t'>
-                    <p className=''>Copyright © 2023 by Agenone. All rights reserved.</p>
+                    <p className=''>Copyright  2023 by Agenone. All rights reserved.</p>
                 </div>
         </div>
 
