@@ -12,7 +12,7 @@ const Services = () => {
                 <h2 className='text-3xl font-bold text-center'>The Services We Offer <span className='h1'>For You</span></h2>
                 <Accordion type="single" collapsible className="w-full flex flex-col gap-5 ">
                     {data.map((item, index) => (
-                        <MotionTransition>
+                        <MotionTransition key={index}>
                             <AccordionItem key={index} value={item.id} className='bg-[#F8F8F8] rounded-xl px-3'>
                                 <AccordionTrigger>{item.title}</AccordionTrigger>
                                 <AccordionContent>

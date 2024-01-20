@@ -18,7 +18,7 @@ const Hero = () => {
                         <span className='span-hero text-white text-[10px] px-4 py-3 rounded-full'>NUMBER ONE CREATIVE DIGITAL AGENCY </span>
                         <div className='flex flex-col items-center justify-center  gap-2 '>
                             <h1 className='text-4xl  lg:text-6xl font-bold text-[#ffff] text-center flex flex-col'> <span className='h1'>Smart Choices</span> For Your Business Growth </h1>
-                            <p className='text-[#B6B8BC] text-[14px] text-center lg:text-1xl lg:max-w-[700px]'>We're a team of experienced designers, developers, and marketers, passionate about delivering exceptional digital solutions</p>
+                            <p className='text-[#B6B8BC] text-[14px] text-center lg:text-1xl lg:max-w-[700px]'>We re a team of experienced designers, developers, and marketers, passionate about delivering exceptional digital solutions</p>
                         </div>
                         <Link href='' className='button px-5 py-3 rounded-full block max-w-max text-white text-[15px]'>Contact Us</Link>
                     </div>
