@@ -31,3 +31,8 @@
   background: var(--Primary-500, linear-gradient(280deg, #00796D 0%, #38C682 100%));
 
 }
+
+html{
+  scroll-behavior: smooth;
+
+}

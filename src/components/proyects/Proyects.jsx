@@ -17,14 +17,13 @@ const Proyects = () => {
         : data.slice(0, 2);
 
     return (
-        <div className='bg-[#0C111F] flex flex-col gap-10 items-center justify-center bg-svg bg-cover'>
+        <div id='proyectos' className='bg-[#0C111F] flex flex-col gap-10 items-center justify-center bg-svg bg-cover'>
             <div className='flex flex-col gap-4'>
                 <h3 className='text-white text-4xl text-center mt-10 lg:text-6xl font-bold text-[#ffff]  '>
-                    Our Project Have Been <span className='h1'>Done</span>
+                Nuestros proyectos han sido  <span className='h1'>completados</span>
                 </h3>
                 <p className='text-[#B6B8BC] text-1xl text-center px-4'>
-                    Take a look at some of our recent projects and see how we ve helped other businesses elevate their brand and drive business growth.
-                </p>
+                Echa un vistazo a algunos de nuestros proyectos recientes y observa cómo hemos ayudado a otras empresas a elevar su marca y impulsar el crecimiento empresarial                </p>
             </div>
 
             <div className='bg-[#F3F3F3] flex px-1 py-1 gap-3 rounded-full w-auto'>
@@ -38,7 +37,7 @@ const Proyects = () => {
                     onClick={() => handleClick('Design')}
                     className={`cursor-pointer text-[#6D7079] text-[13px] md:text-[15px] py-3 px-4 flex items-center justify-center  ${categoriaSeleccionada === 'Design' ? 'card text-white rounded-full px-1' : ''
                         }`}>
-                    Design
+                    Diseño
                 </span>
                 <span
                     onClick={() => handleClick('SMM')}
@@ -67,7 +66,7 @@ const Proyects = () => {
                             className='bg-[#181D2A] flex flex-col  gap-2 px-4 py-3  md:w-[400px]  '>
                             <Image src={item.image} widh='auto' height='auto' className='rounded-xl w-full h-[300px] object-cover' />
                             <p className='text-start text-[#FFFF] font-bold text-1xl'>{item.title}</p>
-                            <p className='text-[#B6B8BC] text-1xl'>{item.description}</p>
+                            <p className='text-[#B6B8BC] text-1xl h-[120px] md:h-[100px]'>{item.description}</p>
                         </motion.div>
                     ))}
                 </div>

@@ -6,27 +6,27 @@ import avatarFour from '../../../public/avatar-4.svg'
 
 export const data = [
     {
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. aliquam diam sagittis sagittis ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. aliquam.',
+        description: '¡Increíble trabajo! La agencia de marketing realmente transformó la visibilidad de mi pequeño negocio local. Gracias a su estrategia de redes sociales, ahora tengo más clientes que nunca. ¡Altamente recomendados!',
         image: avatarOne,
-        name:'Alan Runner',
-        job: 'Sun Founder'
+        name:'Luis Martínez ',
+        job: 'Director de Marketing de Empresa de Tecnología'
     },
     {
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. aliquam diam sagittis sagittis ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. aliquam.',
+        description: 'Estoy impresionado con los resultados que obtuvimos trabajando con esta agencia. Su enfoque estratégico y creatividad han sido clave para el éxito de nuestras campañas digitales. ¡Definitivamente volveremos a trabajar juntos en el futuro!',
         image: avatarTwo,
-        name:'Alan Runner',
-        job: 'Sun Founder'
+        name:'María Sánchez',
+        job: 'Dueña de Pequeño Negocio Local'
     },
     {
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. aliquam diam sagittis sagittis ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. aliquam.',
+        description: 'Desde el primer día, la agencia entendió nuestras necesidades y objetivos. Gracias a su experiencia en SEO y publicidad en línea, hemos experimentado un aumento significativo en el tráfico y las ventas en nuestra tienda en línea. ¡Estamos encantados con los resultados!',
         image: avatarThree,
-        name:'Alan Runner',
-        job: 'Sun Founder'
+        name:'Juan Pérez',
+        job: 'Propietario de Tienda en Línea'
     },
     {
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. aliquam diam sagittis sagittis ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. aliquam.',
+        description: 'Trabajar con esta agencia ha sido una experiencia excepcional. Su equipo siempre está dispuesto a ir más allá para garantizar que nuestras campañas sean efectivas y exitosas. Estamos encantados con la creatividad y el profesionalismo que han demostrado en cada proyecto',
         image: avatarFour,
         name:'Alan Runner',
-        job: 'Sun Founder'
+        job: ' Gerente de Marketing de Empresa de Moda'
     },
 ]

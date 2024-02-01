@@ -7,18 +7,18 @@ import iconCuatro from '../../../public/icon-4.svg'
 export const data = [
     {
         logo:iconUno,
-        title:'Expanding the Market'
+        title:'Expandiendo el mercado'
     },
     {
         logo:iconDos,
-        title:'Cost-Effective'
+        title:'Rentable y economico'
     },
     {
         logo:iconTres,
-        title:'More Professional'
+        title:'Mas Profesional'
     },
     {
         logo:iconCuatro,
-        title:'Attract Client'
+        title:'Atraer Clientes'
     }
 ]

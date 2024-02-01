@@ -27,7 +27,7 @@ const Navbar = () => {
                         <span className='text-[15px] md:text-[24px]'>Ageone</span>
                     </div>
                     <UlDesktop />
-                    <button className='button px-3 py-3 rounded-md hidden md:block text-[15px]'>Contact Us</button>
+                    <button className='button px-3 py-3 rounded-md hidden md:block text-[15px]'>Contactanos</button>
                     <Image src={iconMenu} onClick={toggle} className='md:hidden z-[2]' />
                 </div>
 

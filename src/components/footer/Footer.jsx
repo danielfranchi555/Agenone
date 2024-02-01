@@ -10,28 +10,27 @@ const Footer = () => {
                         <Image src={logo} />
                         <span className='font-bold text-2xl'>Ageone</span>
                     </div>
-                    <p className='text-[#B6B8BC] md:max-w-[300px] md:text-1xl'>We re a team of experienced designers, developers, and marketers, passionate about delivering exceptional digital solutions.</p>
+                    <p className='text-[#B6B8BC] md:max-w-[300px] md:text-1xl'>Somos un equipo de diseñadores, desarrolladores y especialistas en marketing con experiencia, apasionados por ofrecer soluciones digitales excepcionales.</p>
                     <p className='text-[#B6B8BC]'>hello@agenone.com</p>
                 </div>
                 <div className='flex flex-col gap-10 md:flex md:flex-row  md:justify-between '>
                         <ul>
-                            <span className='font-bold'>Menu</span>
-                            <li className='text-[#B6B8BC]'>home</li>
-                            <li className='text-[#B6B8BC]'>Services</li>
-                            <li className='text-[#B6B8BC]'>About Us</li>
-                            <li className='text-[#B6B8BC]'>Project</li>
-                            <li className='text-[#B6B8BC]'>Contact</li>
+                            <li className='text-[#B6B8BC]'>Inicio</li>
+                            <li className='text-[#B6B8BC]'>Servicios</li>
+                            <li className='text-[#B6B8BC]'>Acerca de</li>
+                            <li className='text-[#B6B8BC]'>Projectos</li>
+                            <li className='text-[#B6B8BC]'>Contacto</li>
                         </ul>
                         <ul>
                             <span>Support</span>
                             <li className='text-[#B6B8BC]'>FAQ</li>
-                            <li className='text-[#B6B8BC]'>home</li>
+                            <li className='text-[#B6B8BC]'>Inico</li>
                             <li className='text-[#B6B8BC]'>Privacy Policy</li>
                             <li className='text-[#B6B8BC]'>Terms of Service</li>
                         </ul>
 
                     <ul className=' '>
-                        <span className='font-bold'>Social Media</span>
+                        <span className='font-bold'>Redes Sociales</span>
                         <li className='text-[#B6B8BC]'>Linkedin</li>
                         <li className='text-[#B6B8BC]'>Twitter</li>
                         <li className='text-[#B6B8BC]'>Instagram</li>
@@ -41,7 +40,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className=' py-4 w-[90%] mx-auto text-white text-center border-t'>
-                    <p className=''>Copyright  2023 by Agenone. All rights reserved.</p>
+                    <p className=''>Developed - DanielFranchi</p>
                 </div>
         </div>
 
